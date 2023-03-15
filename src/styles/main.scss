@@ -1,0 +1,21 @@
+@charset 'utf-8';
+
+// utilities
+@import 'utilities/mixins';
+@import 'utilities/variables';
+
+// base
+@import 'base/base';
+
+// components
+@import 'components/button-primary';
+
+// layout
+@import 'layout/container';
+@import 'layout/footer';
+@import 'layout/header'; 
+
+
+// pages
+@import 'views/home';
+@import "views/App.scss";
