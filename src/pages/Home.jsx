@@ -6,7 +6,7 @@ class Home extends React.Component {
     return (
       <div className="home">
         <h1>Soy la Home Page :D</h1>
-        <PrimaryButton text="Ir a About" />
+        <PrimaryButton text="Ir a About" link="https://camiperezz.github.io/website/#/about" />
       </div>
     );
   }

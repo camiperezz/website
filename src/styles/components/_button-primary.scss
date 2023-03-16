@@ -1,19 +1,30 @@
-
 .button-primary {
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 28px;
+  padding: 8px 34px;
   gap: 8px;
-  
-  width: 227px;
+
+  width: fit-content;
   height: 40px;
-  
-  /* Diagonal */
-  
   background: $diagonal-gradient;
   border-radius: 100px;
-  
+
+  /* Safari y Chrome */
+  -webkit-transition: all .6s ease;
+  /* Firefox */
+  -moz-transition: all .6s ease;
+  /* IE 9 */
+  -o-transition: all .6s ease;
+  /* Opera */
+  -ms-transition: all .6s ease;
+
+  &:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 }
