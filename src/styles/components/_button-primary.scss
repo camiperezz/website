@@ -1,0 +1,19 @@
+
+.button-primary {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 28px;
+  gap: 8px;
+  
+  width: 227px;
+  height: 40px;
+  
+  /* Diagonal */
+  
+  background: $diagonal-gradient;
+  border-radius: 100px;
+  
+}
